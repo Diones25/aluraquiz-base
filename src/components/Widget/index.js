@@ -60,8 +60,24 @@ Widget.Topic = styled.a`
 
   &:hover,
   &:focus{
-    opacity: .5s;
+    opacity: .5;
   }
 `;
+
+Widget.Loading = styled.div`
+  animation: is-rotating 1s infinite;
+  width: 70px; 
+  height: 70px;
+  margin: 0 auto;
+  border: 6px solid #ffffff;
+  border-top-color: #03a9f4;
+  border-radius: 50%;
+
+  @keyframes is-rotating{
+    to{
+      transform: rotate(1turn)
+    }
+  }
+`
 
 export default Widget;
