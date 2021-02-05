@@ -30,4 +30,8 @@ Button.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
+Button.Disable = styled.button`
+  display: none;
+`
+
 export default Button;
