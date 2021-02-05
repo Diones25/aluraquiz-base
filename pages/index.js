@@ -36,10 +36,14 @@ export default function Home() {
         <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>Iron Man</h1>
+            <h1>Quiz da Marvel</h1>
           </Widget.Header>
 
           <Widget.Content>
+            <p>
+            Teste o seus conhecimentos sobre o universo 
+            cinematrográfico da Marvel!
+            </p>
             <form onSubmit={(event) => {
               event.preventDefault();
               router.push(`/quiz?name=${name}`);
@@ -64,13 +68,30 @@ export default function Home() {
         </Widget>
 
         <Widget>
-          <Widget.Header>
-            <h1>Iron Man</h1>
-          </Widget.Header>
           <Widget.Content>
-            <p>
-              Lorem ipsum dolor sit amet...
-            </p>
+          <h1>Quizes da galera</h1>
+          <p>
+            Dá uma olhada nesses quizes incríveis 
+            que o pessoal da imerção React Next JS fez:
+          </p>
+            <ul>
+              {db.external.map((linkExterno) => {
+
+                const [projectName, githubUser] = linkExterno
+                .replace(/\//g, '')
+                .replace('https:', '')
+                .replace('.vercel.app', '')
+                .split('.');
+
+                return (
+                  <li key={linkExterno} >
+                    <Widget.Topic href={linkExterno}>
+                      {`${githubUser}/${projectName}`}
+                    </Widget.Topic>
+                  </li>
+                )
+              })}
+            </ul>
           </Widget.Content>
         </Widget>
         <Footer />

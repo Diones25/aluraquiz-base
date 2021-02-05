@@ -4,30 +4,131 @@
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1544118883/rcoactlgbqryqfluzbd2.jpg",
+        "title": "Qual é o nome do lugar no qual os Guardiões da Galáxia encontram o Colecionador no primeiro filme da equipe?",
+        "description": "Essa é pra quem assistiu o filme",
+        "answer": 1,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Xandar",
+          "Lugar nenhum",
+          "Titã",
+          "Asgard"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1544118921/ymq6ib5izuuhzvm496pg.png",
+        "title": "Em 'Thor Ragnarok', com o que o personagem de Karl Urban, Executor, defende o povo de Asgard?",
+        "description": "Esse fez redenção",
+        "answer": 3,
+        "alternatives": [
+           "Super Força",
+           "Diplomacia",
+           "Espada de Heimdall",
+           "Metralhadoras"
+        ]
+      },
+      {
+        "image": "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1544118971/ewtfkqnotr25sjuxzisj.jpg",
+        "title": "O que significa a tatuagem que o vilão Garra Sônica tem no pescoço?",
+        "description": "Responda ai misera!",
+        "answer": 3,
+        "alternatives": [
+           "Força Extrema",
+           "Resiliência",
+           "Vibranium",
+           "Ladrão"
+        ]
+      },
+      {
+        "image": "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1544118988/p6z0kpqckg9e0aztvccq.jpg",
+        "title": "Em 'Capitão América - O Primeiro Vingador', durante um evento promovido por Howard Stark, aparece o uniforme vermelho da primeira versão de um famoso herói da Marvel. Quem é ele?",
+        "description": "Essa é para quem observou bem os detalhes no filme",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Tocha-Humana",
+           "Doutor Estranho",
+           "Senhor das Estrelas",
+           "O próprio Homem de Ferro"
+        ]
+      },
+      {
+        "image": "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1544119020/bwtyep1mlyqpy7cpymci.jpg",
+        "title": "Em qual famosa cidade turística Bruce Banner está escondido no início do filme 'O Incrível Hulk'?",
+        "description": "Essa é fácil",
+        "answer": 2,
+        "alternatives": [
+           "Hong Kong",
+           "Cidade do México",
+           "Rio de Janeiro",
+           "Salvador"
+        ]
+      },
+      {
+        "image": "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1544119034/yy5diloing5ga0ultzap.jpg",
+        "title": "Qual ator que interpretava o Máquina de Combate foi substituído por Don Cheadle à partir de Homem de Ferro 2?",
+        "description": "Se achava demais",
+        "answer": 3,
+        "alternatives": [
+           "Will Smith",
+           "Chadwick Boseman",
+           "Denzel Washington",
+           "Terrence Howard"
+        ]
+      },
+      {
+        "image": "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1544119050/mm3gysrqqlvhliul1y9q.jpg",
+        "title": "Qual é o apelido da armadura de contenção do Hulk, a Hulkbuster?",
+        "description": "Essa armadura deu uma surra no Hulk, sqn",
+        "answer": 2,
+        "alternatives": [
+           "Valquíria",
+           "Valeria",
+           "Veronica",
+           "Maria"
+        ]
+      },
+      {
+        "image": "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1544119064/wq1ixqtl2n0acxlpsvcl.jpg",
+        "title": "Qual dessas palavras não faz parte da combinação utilizada para ativar a programação mental do Soldado Invernal em 'Capitão América: Guerra Civil'?",
+        "description": "'Desmemoriado'",
+        "answer": 3,
+        "alternatives": [
+           "Forno",
+           "Saudade",
+           "Benigno",
+           "Dezesseis"
+        ]
+      },
+      {
+        "image": "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1544119078/urz3u5fxsxfbrissiaoi.jpg",
+        "title": "Em Vingadores Guerra Infinita, qual é a outra Dora Milaje (além da Shuri) que está ao lado do Pantera Negra quando Cap, Visão, Falcão entre outros chegam à Wakanda?",
+        "description": "'Wakanda pra sempre!'",
+        "answer": 1,
+        "alternatives": [
+           "Shuri",
+           "Ayo",
+           "Xoliswa",
+           "Romonda"
+        ]
+      },
+      {
+        "image": "https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1544119091/lpepc2hepmqcvfjcpp9m.jpg",
+        "title": "O termo 'Excelsior', dito por Stan Lee em algumas das suas participações no MCU, é o dialeto de qual importante raça alienígena do Universo Marvel?",
+        "description": "Copiadores impostores!",
+        "answer": 3,
+        "alternatives": [
+           "Kree",
+           "Xandarianos",
+           "Asgardianos",
+           "Skrulls"
         ]
       }
     ],
     "external": [
-      ""
+      "https://aluraquiz-css.omariosouto.vercel.app/",
+      "https://aluraquiz-devsoutinho.omariosouto.vercel.app/",
+      "https://alura-quiz-avengers.fernanda-kipper.vercel.app/",
+      "https://quiz-games.gabrielwolf-dev.vercel.app/"
     ],
     "theme": {
       "colors": {
@@ -35,7 +136,7 @@
         "secondary": "#d500f9",
         "mainBg": "#171B35",
         "contrastText": "#FFFFFF",
-        "wrong": "#FF5722",
+        "wrong": "#e74c3c",
         "success": "#4CAF50"
       },
       "borderRadius": "4px"
